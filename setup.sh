@@ -13,7 +13,7 @@ apt -y install binutils bison flex gcc gcc-multilib g++ make nasm || exit 1
 apt -y install git imagemagick libncursesw5 qt5-style-plugins p7zip-full pkg-config sqlite3 subversion texinfo webp xorriso || exit 1
 apt -y install qemu qemu-block-extra qemu-kvm qemu-slof qemu-system qemu-user qemu-utils || exit 1
 apt -y install bochs bochsbios bochs-x vgabios || exit 1
-apt -y install bless deluge gdebi-core ghex gimp isomaster python3 python3-pip || exit 1
+apt -y install deluge gdebi-core ghex gimp isomaster python3 python3-pip || exit 1
 
 apt -y install apt-transport-https curl
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
