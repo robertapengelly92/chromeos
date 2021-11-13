@@ -27,8 +27,8 @@ exit
 mkdir -p ~/.config ~/.fonts ~/.vmware
 mkdir -p ~/.config/Code/User ~/.config/Notepadqq
 
-wget -O ~/.config/Code/User/keybindings.json https://raw.githubusercontent.com/robertapengelly92/visual-studio-code/master/keybindings.json
-wget -O ~/.config/Code/User/settings.json https://raw.githubusercontent.com/robertapengelly92/visual-studio-code/master/settings.json
+wget -O ~/.config/Code/User/keybindings.json https://raw.githubusercontent.com/robertapengelly92/vscode/master/keybindings.json
+wget -O ~/.config/Code/User/settings.json https://raw.githubusercontent.com/robertapengelly92/vscode/master/settings.json
 wget -O ~/.config/Notepadqq/Notepadqq.ini https://raw.githubusercontent.com/robertapengelly92/ubuntu/master/Notepadqq.ini
 wget -O ~/.vmware/preferences https://raw.githubusercontent.com/robertapengelly92/ubuntu/master/preferences
 
